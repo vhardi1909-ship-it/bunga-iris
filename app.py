@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from prediction import predict
+from Prediction import predict
 
 st.title('Classifying Iris Flowers')
 st.markdown('Toy model to play to classify iris flowers into \
@@ -31,3 +31,4 @@ if st.button("Predict type of Iris"):
 st.text('')
 st.text('')
 st.markdown('')
+
